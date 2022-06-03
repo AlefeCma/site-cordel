@@ -1,57 +1,65 @@
 @charset"UTF8";
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html,body{
+html,
+body {
     background-color: darkgray;
     min-height: 100vh;
     font-family: var(--fonte2)
-    
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-:root{
-   --fonte1: 'Roboto', sans-serif;
-   --fonte2: Arial, Helvetica, sans-serif;
-   --fonte3:'Pacifico', cursive;
+
+:root {
+    --fonte1: 'Roboto', serif;
+    --fonte2: Arial, sans-serif;
+    --fonte3: 'Pacifico', serif;
 }
 
-header{
-background-color: black;
-color: white;
-text-align: center;
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
-header > h1{
-padding: 50px;
-font-variant: small-caps;
-font-family: var(--fonte1);
-font-size: 2.5em;
+header>h1 {
+    padding: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 2.5em;
 }
 
-header>p{
+header>p {
     padding-bottom: 50px;
 }
-a{
+
+a {
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
     font-weight: bold;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-section.normal{
+
+section.normal {
     background-color: white;
 }
-section.img{
+
+section.img {
     background-color: skyblue;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
     background-attachment: fixed;
 }
-section{
+
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 1.8em;
@@ -59,25 +67,30 @@ section{
     font-family: var(--fonte3);
     font-size: 1.3em;
 }
-section.img>p{
+
+section.img>p {
     background-color: rgba(51, 50, 50, 0.584);
-    width: 400px;
+    max-width: 700px;
     text-shadow: 1px 1 px 0px black;
 }
-section > p {
+
+section>p {
     padding-bottom: 2em;
 }
-section#img01{
-background-image:url(imagens/background001.jpg) ;
-background-position: right center;
-background-size: cover;
-}
-section#img02{
-    background-image:url(imagens/background002.jpg) ;
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
 }
-footer{
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+footer {
     background-color: black;
     text-align: center;
     color: white;
