@@ -1,4 +1,6 @@
 @charset"UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
     margin: 0px;
@@ -12,13 +14,12 @@ body {
     font-family: var(--fonte2)
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 :root {
-    --fonte1: 'Roboto', serif;
-    --fonte2: Arial, sans-serif;
-    --fonte3: 'Pacifico', serif;
+    --fonte1:'Roboto',serif;
+    --fonte2:Arial,serif;
+    --fonte3:'Pacifico',serif;
 }
 
 header {
